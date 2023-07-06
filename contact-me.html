@@ -19,55 +19,58 @@
             crossorigin="anonymous"></script>
     </head>
     <body>
-        <div>
-            <img class="container-fluid" src="images/salty-banner-6.png">
-        </div>
-        <div>
-            <h1 class="text-center">Hit me up!</h1>
-        </div>
-        <div id="nav-container" class="container-fluid">
-            <ul class="nav justify-content-md-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">What am I?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Hit me up!</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Salty goods</a>
-                </li>
-            </ul>
-            <div>
-                You can send me an email query at saltyservices@proton.me by filling in the form and hitting the "Go!" button.<br>
+            <div class="container-fluid">
+                <div>
+                    <img class="container-fluid" src="images/salty-banner-6.png">
+                </div>
+                <div>
+                    <h1 class="text-center">Hit me up!</h1>
+                </div>
+                <div id="nav-container" class="container-fluid">
+                    <ul class="nav justify-content-md-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">What am I?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Hit me up!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Salty goods</a>
+                        </li>
+                    </ul>
+                </div>    
+                <div>
+                    You can send me an email query at saltyservices@proton.me by filling in the form and hitting the "Go!" button.<br>
+                </div>
+                <div class="col">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPhone">Phone</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputQuery">Message</label>
+                            <input type="textarea" class="form-control">
+                        </div><br>
+                        <input type="submit" class="btn btn-info">Go!</input>
+                    </form>
+                </div>
             </div>
-            <div class="col">
-                <form action="" method="post">
-                    <div class="form-group">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPhone">Phone</label>
-                        <input type="number" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputQuery">Message</label>
-                        <input type="textarea" class="form-control">
-                    </div><br>
-                    <input type="submit" class="btn btn-info">Go!</input>
-                </form>
-            </div>
-        </div>
-        <footer class="fixed-bottom">
-            <img class="col-1" src="images/salty-logo.png">
-            &copy 2023 Salty Services
-        </footer>
+            <footer id="footer" class="fixed-bottom">
+                <img id="footer-icon" src="images/salty-logo.png">
+                &copy 2023 Salty Services
+            </footer>
+        
     </body>
 </html>

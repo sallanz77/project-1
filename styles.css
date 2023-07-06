@@ -1,3 +1,7 @@
+#content-wrap  {
+    padding-bottom: 10%;
+}
+
 #what-am-i  {
     background-color: lavender;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -16,12 +20,13 @@ marquee  {
     font-size: x-large;
 }
 
-.page-container  {
-    min-height: 100vh;
+footer {
+    position: absolute;
+    width: 100vw;
+    padding-bottom: 6px;
+    background-color: mediumaquamarine;
 }
 
-footer {
-    width: 100%;
-    max-height: 100px;
-    background-color: mediumaquamarine;
+#footer-icon {
+    max-width: 5%;
 }
