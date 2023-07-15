@@ -48,24 +48,24 @@
                         You can send me an email query at saltyservices@proton.me by filling in the form and hitting the "Go!" button.<br>
                     </div>
                     <div class="col">
-                        <form action="" method="post">
+                        <form action="form-to-email.php" method="post" enctype="multipart/form-data">
                             <div class="form-group">
                                 <label for="inputName">Name</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" id="name">
                             </div>
                             <div class="form-group">
                                 <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control">
+                                <input type="email" class="form-control" id="email">
                             </div>
                             <div class="form-group">
                                 <label for="inputPhone">Phone</label>
-                                <input type="number" class="form-control">
+                                <input type="number" class="form-control" id="phone">
                             </div>
                             <div class="form-group">
                                 <label for="inputQuery">Message</label>
-                                <input type="textarea" class="form-control">
+                                <input type="textarea" class="form-control" id="message">
                             </div><br>
-                            <input type="submit" class="btn btn-info">Go!</input>
+                            <input type="submit" class="btn btn-info" value="Go!"></input>
                         </form>
                     </div>
                 </div>
