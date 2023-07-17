@@ -1,9 +1,9 @@
 <?php
-    $fname = $_POST['inputFname'];
-    $lname = $_POST['inputLname'];
-    $visitor_email = $_POST['inputEmail'];
-    $visitor_phone = $_POST['inputPhone'];
-    $message = $_POST['inputMessage'];
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $visitor_email = $_POST['email'];
+    $visitor_phone = $_POST['phone'];
+    $message = $_POST['message'];
 ?>
 
 <?php
@@ -19,4 +19,6 @@
     $headers .='Reply-To: $visitor_email \r\n';
     mail($to,$email_subject,$email_body,$headers);
 ?>
+
+    echo '<p>Message sent!</p>'
 
